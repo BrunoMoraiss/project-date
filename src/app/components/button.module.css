@@ -1,0 +1,30 @@
+.button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: not-allowed;
+    border: 1px solid #ccc;
+    transition: left 0.3s ease-in-out, top 0.3s ease-in-out;
+    background-color: rgb(161, 3, 111);
+    border: 1px solid rgb(112, 3, 78);
+    border-radius: 8px;
+    color: #a5e5ee;
+}
+
+.buttonRight {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: left 0.3s ease-in-out, top 0.3s ease-in-out;
+    background-color: rgb(161, 3, 111);
+    border: 2px solid rgb(163, 4, 113);
+    border-radius: 8px;
+    color: #a5e5ee;
+}
+
+.buttonRight:hover{
+    transition: 1s ease-out;
+    background-color: rgb(187, 3, 129);
+    border: 2px solid rgb(163, 4, 113);
+    color: #92dde7;
+}
